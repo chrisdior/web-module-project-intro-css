@@ -55,7 +55,7 @@ table {
    
 
   .intro{
-    background-color:#DDB9A3;
+    background-color
     padding:4px;
     color:white;
     border:10px;
@@ -67,6 +67,7 @@ table {
     border-radius:50%;
     height:200px;
     width:15%;
+    margin-left: 100px;
   }
   .content-fire img {
     height: 100px;
@@ -120,7 +121,9 @@ table {
     font-family: 'Roboto Mono', monospace;
     text-align:center;
     border-radius: 20px;
-    height:100px
+    height:100px;
+    position: relative;
+    bottom: 20px;
   }
   .links .Get{
     background-color:#FFCD69;
@@ -169,7 +172,10 @@ table {
     font-family: 'Chelsea Market', cursive;
     text-align: center;
     flex-direction: column;
-    
+    position: relative;
+    bottom: 300px;
+    margin-left: 500px;
+    color:black
   }
   
   .content-fire{
@@ -198,6 +204,23 @@ table {
     margin:auto;
     margin-bottom: 5%;
   }
-  .welcome{
+  .p .welcome-here{
     font-size: 100%;
+  }
+  .footer-content{
+    background-color: #F9E7DC;
+  }
+
+ #welcome-here{
+    font-size: 30px;
+    position: relative;
+    bottom: 200px;
+    margin-left: 20%;
+  }
+
+  .second {
+    font-size: 20px;
+    position: relative;
+    bottom: 200px;
+    margin-left: 30%;
   }
