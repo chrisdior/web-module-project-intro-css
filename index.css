@@ -73,49 +73,54 @@ table {
     padding: 10px;
     width:50%;
     margin-right:500px;
-    margin-left:300px;
+    margin-left:500px;
+    box-align:center;
   }
   .lodging img{
     height:100px;
     padding:10px;
     width:50%;
     margin-right:500px;
-    margin-left:300px;
+    margin-left:450px;
+    box-align:center;
   }
   
   .footer-content img{
     width:100vw;
-    height:50vh;
+    height:40vh;
   }
   
   .links .Plan{
     background-color:#FF764E;
     color:white;
-    width:17%;
+    width:20%;
     font-size: 20px;
     border:1px solid lightgray;
     padding:35px;
     display: inline-block;
     border-radius: 20px;
     margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 100px;
+    margin-right:200px;
     font-family: 'Roboto Mono', monospace;
-    box-align:center;
+    text-align:center;
   }
   .links .Learn{
     background-color:#5ED3EB;
-    font-size: 20px;
+    font-size: 23px;
+    width:20%;
     border:1px solid lightgray;
     color:white;
-    padding:35px;
+    padding:15px;
     display: inline-block;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right:0px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:50px;
     font-family: 'Roboto Mono', monospace;
-    box-align:center;
+    text-align:center;
     border-radius: 20px;
+    height:100px
   }
   .links .Get{
     background-color:#FFCD69;
@@ -126,27 +131,29 @@ table {
     padding:35px;
     display: inline-block;
     margin-top:auto;
-    margin-left: auto;
-    margin-right:0px ;
+    margin-left: 100px;
+    margin-right:auto;
     font-family: 'Roboto Mono', monospace;
-    box-align:center;
-    border-radius: 20px;
+    text-align:center;
+    border-radius: 20px; 
     
   }
-    
   
-  *{
+  
+  
+  .{
     font-family:'Chelsea Market', cursive;
     
   }
   
   .highlight{
-    font-size:15px;
+    font-size:25px;
     background-color:#DDB9A3;
     border:13%;
     display:inline-block;
     color:white;
     font-family:'Roboto Mono', monospace;
+    height: 200px
     
   }
   p {
@@ -157,9 +164,12 @@ table {
   }
   
   h1{
-    font-size:50px;
+    display:flex;
+    font-size:100px;
     font-family: 'Chelsea Market', cursive;
     text-align: center;
+    flex-direction: column;
+    
   }
   
   .content-fire{
@@ -175,8 +185,8 @@ table {
     display:flex;
     font-size:15px;
     flex-direction:column;
-    width:50%;
-    margin:auto;
+    width:18%;
+    margin-left:48%;
     
   }
   
@@ -184,6 +194,10 @@ table {
     display:flex;
     font-size:15px;
     flex-direction:column;
-    width:50%;
+    width:18%;
     margin:auto;
+    margin-bottom: 5%;
+  }
+  .welcome{
+    font-size: 100%;
   }
