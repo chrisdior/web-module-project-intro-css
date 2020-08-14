@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+
+* { 
+    box-sizing:border-box ;
+   
+  
+  }
+   
+
+  .intro{
+    background-color:#DDB9A3;
+    padding:4px;
+    color:white;
+    border:10px;
+    height: 30px;
+    font-size:15px;
+    margin:15px
+  }
+  .logo img{
+    border-radius:50%;
+    height:200px;
+    width:15%;
+  }
+  .content-fire img {
+    height: 100px;
+    padding: 10px;
+    width:50%;
+    margin-right:500px;
+    margin-left:300px;
+  }
+  .lodging img{
+    height:100px;
+    padding:10px;
+    width:50%;
+    margin-right:500px;
+    margin-left:300px;
+  }
+  
+  .footer-content img{
+    width:100vw;
+    height:50vh;
+  }
+  
+  .links .Plan{
+    background-color:#FF764E;
+    color:white;
+    width:17%;
+    font-size: 20px;
+    border:1px solid lightgray;
+    padding:35px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto Mono', monospace;
+    box-align:center;
+  }
+  .links .Learn{
+    background-color:#5ED3EB;
+    font-size: 20px;
+    border:1px solid lightgray;
+    color:white;
+    padding:35px;
+    display: inline-block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right:0px;
+    font-family: 'Roboto Mono', monospace;
+    box-align:center;
+    border-radius: 20px;
+  }
+  .links .Get{
+    background-color:#FFCD69;
+    color:white;
+    width:17%;
+    font-size: 20px;
+    border:1px solid lightgray;
+    padding:35px;
+    display: inline-block;
+    margin-top:auto;
+    margin-left: auto;
+    margin-right:0px ;
+    font-family: 'Roboto Mono', monospace;
+    box-align:center;
+    border-radius: 20px;
+    
+  }
+    
+  
+  *{
+    font-family:'Chelsea Market', cursive;
+    
+  }
+  
+  .highlight{
+    font-size:15px;
+    background-color:#DDB9A3;
+    border:13%;
+    display:inline-block;
+    color:white;
+    font-family:'Roboto Mono', monospace;
+    
+  }
+  p {
+    font-family: 'Roboto Mono', monospace;
+    text-align:center;
+    
+    
+  }
+  
+  h1{
+    font-size:50px;
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+  }
+  
+  .content-fire{
+    font-size:15px;
+    display:table-cell;
+    margin:0;
+    padding:20px;
+    border:10px solid white;
+    vertical-align: middle;
+  }
+  
+  .fire-text{
+    display:flex;
+    font-size:15px;
+    flex-direction:column;
+    width:50%;
+    margin:auto;
+    
+  }
+  
+  .bus-text{
+    display:flex;
+    font-size:15px;
+    flex-direction:column;
+    width:50%;
+    margin:auto;
+  }
